@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>960_12 Grid</title>
+            <style type="text/css">
+                * {
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+                p {
+                    font-size: 16pt;
+                }
+                body {
+                    width: 90%;
+                    margin: 0 auto;
+                    text-align: center;
+                    overflow: auto;
+                }
+                .title1, .title2 {
+                    float: left;
+                    margin: 1%;
+                    background-color: #ff0256;
+                    color: #ffffff;
+                    padding: 1.5em;
+                }
+                .title1 {
+                    width: 28%;
+                }
+                .title2 {
+                    width: 60%;
+                }
+                .nav, .icon {
+                    float: left;
+                    margin: 1%;
+                    background-color: #ff0256;
+                    color: #ffffff;
+                    padding: 1.5em;
+                }
+                .nav {
+                    width: 20%;
+                }
+                .icon {
+                    width: 68%;
+                }
+                .feature1, .feature2, .feature3 {
+                    float: left;
+                    margin: 1%;
+                    background-color: #ff0256;
+                    color: #ffffff;
+                    padding: 1.5em;
+                }
+                .feature1 {
+                    width: 44%;
+                }
+                .feature2, .feature3 {
+                    width: 19.2%;
+                }
+                .column1, .column2, .column3, .column4 {
+                    float: left;
+                    margin: 1%;
+                    background-color: #ff0256;
+                    color: #ffffff;
+                    padding: 1.5em;
+                }
+                .column1, .column2 {
+                    width: 28.5%;
+                }
+                .column3, .column4 {
+                    width: 9.8%;
+                }
+                .instagram, .twitter, .linkedin, .github, .youtube {
+                    float: left;
+                    margin: 1%;
+                    background-color: #ff0256;
+                    color: #ffffff;
+                    padding: 1.5em;
+                }
+                .instagram, .twitter {
+                width: 20.8%;
+                }
+                .linkedin, .github, .youtube {
+                    width: 9.8%
+                }
+            </style>
+        </head>
+        <body>
+            <div id="header">
+                <div class="title1">
+                    <p>Title</p>
+                </div>
+                <div class="title2">
+                    <p>Title 2</p>
+                </div>
+            </div>
+            <div id="navigation">
+                <div class="nav">
+                    <p>Nav</p>
+                </div>
+                <div class="icon">
+                    <p>Icon</p>
+                </div>
+            </div>
+            <div id="content">
+                <div class="feature1">
+                    <p>Feature 1</p>
+                </div>
+                <div class="feature2">
+                    <p>Feature 2</p>
+                </div>
+                <div class="feature3">
+                    <p>Feature 3</p>
+                </div>
+            </div>
+            <div id="content2">
+                <div class="article column1">
+                    <p>Column 1</p>
+                </div>
+                <div class="article column2">
+                    <p>Column 2</p>
+                </div>
+                <div class="article column3">
+                    <p>Column 3</p>
+                </div>
+                <div class="article column4">
+                    <p>Column 4</p>
+                </div>
+            </div>
+            <div id="social">
+                <div class="instagram">
+                    <p>Instagram</p>
+                </div>
+                <div class="twitter">
+                    <p>Twitter</p>
+                </div>
+                <div class="linkedin">
+                    <p>LinkedIn</p>
+                </div>
+                <div class="github">
+                    <p>GitHub</p>
+                </div>
+                <div class="youtube">
+                    <p>YouTube</p>
+                </div>
+            </div>
+        </body>
+    </html>
